@@ -47,6 +47,6 @@ Increase position by focusing outward. (Depends on how you wire the motor, of co
 There's no temperature compensation.
 
 The software was tested with INDI installed on a Raspberry Pi, focuser software on an Arduino UNO. 
-Motor shield: Home made to support a4988 driver for Step Motor 42SHDC3025-24B. Telescope: SkyWatcher 200P 200/100. 
+Motor shield: Home made to support a4988 driver for Step Motor 42SHDC3025-24B. Telescope: SkyWatcher 200P 200/1000. 
 The autofocus routine of INDI was not tested yet (August 2017), due to lack of clear skies. 
 On this setup, the maximum focus travel is at most 9600 steps.
